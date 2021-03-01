@@ -1,12 +1,30 @@
 .hero {
-    padding: 74px 0 0 0;
+    padding: 74px 16px 0 ;
+    text-align: center;
+    line-height: 32px;
+
+    &__blue--word{
+        color: $blue;
+    }
     &__image {
     width: 96px;
     height: 96px;
-    background-size: cover;
+    background-size: content-box;
     border-radius: 50px;
     }
     &__hello {
         display:none;
+    }
+    &__image--container {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    &__header{
+        text-align: center;
+        color: $tekstdark;
+        font-size: 15px;
+     
+
     }
 }
