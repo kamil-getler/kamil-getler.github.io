@@ -3,6 +3,17 @@
     text-align: center;
     line-height: 32px;
 
+
+    &__contact {
+        border-radius: 64px;
+        color: #fff;
+        background: $blue;
+        display: inline-block;
+        padding: 4px 24px;
+        font-size:20px;
+        text-decoration: none;
+    }
+
     &__blue--word{
         color: $blue;
     }
@@ -28,3 +39,4 @@
 
     }
 }
+
