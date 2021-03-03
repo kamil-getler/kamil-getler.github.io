@@ -9,4 +9,39 @@
         text-align: center;
         
     }
+    .skills-list{
+        font-style:normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin:0 auto;
+        list-style-type: none;
+        padding: 0;
+        &__item{
+            padding: 0 0 0 24px;
+            margin:0 0 16px;
+            position: relative;
+            font-size: 16px;
+            line-height: 24px;
+            &::before{
+                position: absolute;
+                left: 0;
+                top: 7px;
+                content: '';
+                width:12px;
+                height: 9px;
+                background: url();
+                display: block;
+            }
+        }
+    }
+}
+.skills-section {
+    margin-top: 64px;
+    &__emoji{
+        font-size: 64px;
+        line-height: 72px;
+        display: block;
+        text-align:center;
+    }
+
 }
