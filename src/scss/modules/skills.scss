@@ -1,47 +1,80 @@
-.skills{
-    background-color: $blue;
-    color:#fff;
-    padding: 64px 16px 88px ;
-    &__header {
-        font-size: 36px;
-        font-weight: bold;
-        line-height: 48px;
-        text-align: center;
-        
-    }
-    .skills-list{
-        font-style:normal;
-        font-size: 16px;
-        line-height: 24px;
-        margin:0 auto;
-        list-style-type: none;
-        padding: 0;
-        &__item{
-            padding: 0 0 0 24px;
-            margin:0 0 16px;
-            position: relative;
-            font-size: 16px;
-            line-height: 24px;
-            &::before{
-                position: absolute;
-                left: 0;
-                top: 7px;
-                content: '';
-                width:12px;
-                height: 9px;
-                background: url();
-                display: block;
-            }
-        }
-    }
+.triangle{
+    width: 40px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid $blue;
+    margin:auto;
 }
-.skills-section {
-    margin-top: 64px;
-    &__emoji{
-        font-size: 64px;
-        line-height: 72px;
-        display: block;
-        text-align:center;
-    }
 
+    .triangle--white {
+        width: 40px;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 30px solid white;
+    }
+    
+
+
+.skills {
+  background-color: $blue;
+  color: #fff;
+  padding: 0 16px 88px;
+  &__header {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 48px;
+    text-align: center;
+  }
+
+}
+.skills-list {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;  
+  &__item {
+    padding: 0 0 0 24px;
+    margin: 0 0 16px;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    &:before {
+      position: absolute;
+      left: 0;
+      top: 7px;
+      content: "";
+      width: 12px;
+      height: 9px;
+      background: url("../assets/img/small-tick.png");
+      display: block;
+      .skills-list--blue &{
+          background: url("../assets/img/small-tick-blue.png")
+      }
+      .skills-list--dot & {
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          top: 10px;
+          left: 5px;
+          background: white;
+      }
+    
+    }
+  }
+}
+
+
+
+
+
+.skills-section {
+  margin-top: 64px;
+  &__emoji {
+    font-size: 64px;
+    line-height: 72px;
+    display: block;
+    text-align: center;
+  }
 }
