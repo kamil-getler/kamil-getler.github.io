@@ -19,5 +19,21 @@
         background: $gray;
         box-shadow: 8px 4px 16px rgba(0,0,0,0.25);
         border-radius: 16px;
+        overflow: hidden;
+        &__circle{
+            margin-right:8px ;
+            display: block;
+            width: 8px;
+            height: 8px;
+            background: $mediumgray;
+            border-radius: 50%;
+        }
+        &__window{
+            height: 40px;
+            background: $dark;
+            display: flex;
+            align-items:center;
+            padding: 0 0 0 16px;  
+        }
     }
 
