@@ -19,9 +19,17 @@
   background-color: $blue;
   color: #fff;
   padding: 0 16px 88px;
+  text-align: center;
+  &__colums{
+  @media (min-width:$deskop){
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+       
   
   &__header {
-    font-size: 36px;
+    font-size: 25px;
     font-weight: bold;
     line-height: 48px;
     text-align: center;
@@ -35,9 +43,11 @@
   margin: 0 auto;
   list-style-type: none;
   padding: 0;  
+  width:248px;
+
   &__item {
     padding: 0 0 0 24px;
-    margin: 0 0 16px;
+    margin: 0;
     position: relative;
     font-size: 16px;
     line-height: 24px;
@@ -45,7 +55,7 @@
       position: absolute;
       left: 0;
       top: 7px;
-      content: "";
+      content: '';
       width: 12px;
       height: 9px;
       background: url("../assets/img/small-tick.png");
