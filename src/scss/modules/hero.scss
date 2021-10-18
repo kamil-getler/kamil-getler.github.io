@@ -2,6 +2,7 @@
     padding: 74px 16px 0 ;
     text-align: center;
     line-height: 32px;
+    font-weight: 800;
     
 
 
@@ -34,6 +35,7 @@
         display: flex;
         align-items:center;
         justify-content: center;
+        
     }
     &__header{
         text-align: center;
@@ -43,30 +45,3 @@
 
     }
 }
-@keyframes shadow{
-    from {
-        transform: color(black);
-    }
-    to {
-        transform: color(orange);
-    }
-}
-
-@keyframes shadow {
-	
-        0% {   background: dodgerblue }
-        25% {  background: crimson }
-        50% {  background: rgb(255, 177, 7) }
-        75% {  background: limegreen }
-        100% { background: rgb(252, 53, 152) }
-        
-	
-}
-
-.animation{
-    width: 100% ;
-    animation: shadow 5s infinite ease;
-    height: 5px;
-    margin-bottom: 0px;
-    
-  }

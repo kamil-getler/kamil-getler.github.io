@@ -1,0 +1,105 @@
+
+///AUREOLA
+.block {
+	position: relative;
+	background: linear-gradient(0deg, #000, #272727);
+  border-radius: 150px;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+  left: -2px;
+  top:-2px;
+	background: linear-gradient(90deg, #ffffff, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+  border-radius: 150px;
+	
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 10 0;
+	}
+	50% {
+		background-position: 200% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+  .block:after {
+    filter: blur(50px);
+  
+}
+///CHMURA
+@keyframes cloud{
+ 0% {left: -100px;}
+ 100% {left: 100%;}
+}
+
+
+.cloud{
+  margin-bottom: 5px;
+  display: block;
+  position: fixed;
+  width: 50px;
+  z-index: 1;
+  animation: cloud 100s infinite;
+  &__one{
+    top: 50px;
+    position: fixed;
+    animation: cloud 150s infinite;
+    
+  }
+  ///PASEK
+}
+@keyframes shadow{
+  from {
+      transform: color(black);
+  }
+  to {
+      transform: color(orange);
+  }
+}
+
+@keyframes shadow {
+
+      0% {   background: dodgerblue }
+      25% {  background: crimson }
+      50% {  background: rgb(255, 177, 7) }
+      75% {  background: limegreen }
+      100% { background: rgb(252, 53, 152) }
+      
+
+}
+
+.animation{
+  width: 100% ;
+  animation: shadow 15s infinite ease;
+  filter: blur(1PX);
+  height: 5px;
+  margin-bottom: 0px;
+  
+}
+///ANIMACJA EMOJI
+
+.face__anim
+{
+  
+  animation: face 15s infinite alternate ;
+}
+  @keyframes face {
+
+  0%{ }
+  45% {transform: rotate(20deg);}
+  100%{ transform: rotate(-20deg); }
+}

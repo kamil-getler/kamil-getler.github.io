@@ -30,7 +30,7 @@
 
 
 .skills {
-  background-color: $blue;
+  background: linear-gradient(0deg ,rgb(89, 177, 236),rgb(6, 88, 143));
   color: #fff;
   padding: 0 16px 88px;
   text-align: center;
@@ -91,63 +91,7 @@
 }
 
 
-.block {
-	position: relative;
-	background: linear-gradient(0deg, #000, #272727);
-  border-radius: 150px;
-  z-index: 1;
-  width: 80px;
-  height: 80px;
-  margin: auto;
-}
 
-.block:before, .block:after {
-	content: '';
-	position: absolute;
-  left: -2px;
-  top:-2px;
-  background-size: 100%;
-	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
-		#0000ff, #00ff00,#ffff00, #ff0000);
-	background-size: 400%;
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-  border-radius: 150px;
-	
-	animation: steam 20s linear infinite;
-}
-
-@keyframes steam {
-	0% {
-		background-position: 0 0;
-	}
-	50% {
-		background-position: 150% 0;
-	}
-	100% {
-		background-position: 0 0;
-	}
-}
-@keyframes cloud{
- 0% {left: -100px;}
- 100% {left: 100%;}
-}
-
-
-.cloud{
-  margin-bottom: 5px;
-  display: block;
-  position: relative;
-  background: white;
-  width: 50px;
-  animation: cloud 100s infinite;
-  &__one{
-    position: absolute;
-    animation: cloud 150s infinite;
-    
-  }
-
-}
 .block:after {
 	filter: blur(50px);
 }
