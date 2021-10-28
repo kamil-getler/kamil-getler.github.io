@@ -103,3 +103,24 @@
   45% {transform: rotate(20deg);}
   100%{ transform: rotate(-20deg); }
 }
+////TEST
+.body{
+  margin:auto;
+  background:black;
+  width:100px;
+  height:100px;
+}
+.przycisk{
+  height:50px;
+  background:yellow;
+  margin-left:100vh;
+}
+.zmiana{
+  margin:auto;
+  width:100px;
+  height:100px
+}
+
+.kropla__aim{
+  width:100px ;
+}
