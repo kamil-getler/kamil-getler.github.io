@@ -7,24 +7,6 @@ Witam,jestem studentem kerunku informatyka oraz instruktorem nauki jazdy,kucharz
 
 ![Alt Text](https://media.giphy.com/media/M2QpOdS8ul6AdgUmkA/giphy.gif)
 
-
-`@keyframes cloud{
- 0% {left: -100px;}
- 100% {left: 100%;}
-}
-.cloud{
-  margin-bottom: 5px;
-  display: block;
-  position: fixed;
-  width: 50px;
-  z-index: 1;
-  animation: cloud 100s infinite;
-  &__one{
-    top: 50px;
-    position: fixed;
-    animation: cloud 150s infinite;   
-  }
-  `
   
  `Dodawanie nowej klasy z użyciem JavaSkript`
   
@@ -50,6 +32,12 @@ Witam,jestem studentem kerunku informatyka oraz instruktorem nauki jazdy,kucharz
   
   ### Technologie ###
   
-   `Responsywnosc Strony`
+   `Responsywnosc strony`
   
   ![Alt Text](https://media.giphy.com/media/FVvU6cLB1yhrsndoh5/giphy-downsized.gif)
+  
+  `Lighthouse`
+  
+  ![image](https://user-images.githubusercontent.com/65391991/139304653-6bab5ab6-df65-4e18-b5c1-64573058d2fc.png)
+
+  # B-E-M | JavaScript | WebPack | NMP | GitHub | Markdown | SASS  #
