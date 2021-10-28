@@ -25,6 +25,11 @@ Witam,jestem studentem kerunku informatyka oraz instruktorem nauki jazdy,kucharz
     animation: cloud 150s infinite;   
   }
   `
+  
+ `Dodawanie nowej klasy z użyciem JavaSkript`
+  
+  ![Alt Text](https://media.giphy.com/media/AYPdBx1ipxvdaiWy2A/giphy.gif)
+  
   `Flex`
   
   ![Alt Text](https://media.giphy.com/media/J7qtH4it0WxjSAdbgw/giphy.gif)
@@ -34,10 +39,17 @@ Witam,jestem studentem kerunku informatyka oraz instruktorem nauki jazdy,kucharz
   ![Alt Text](https://media.giphy.com/media/kAoA5BDMJrWw7HZh2J/giphy.gif)
   
   
-  ![Alt Text](https://media.giphy.com/media/AYPdBx1ipxvdaiWy2A/giphy.gif)
   
+  `Obracajace Emoji`
+
   ![Alt Text](https://media.giphy.com/media/LTaY43sXhjt1QRduyF/giphy.gif)
+  
+  `Zmieniajaca kolory belka`
   
   ![Alt Text](https://media.giphy.com/media/gZWwYQQYcmEET21Yx1/giphy.gif)
   
-  ![Alt Text](https://media.giphy.com/media/FVvU6cLB1yhrsndoh5/giphy-downsized-large.gif)
+  ### Technologie ###
+  
+   `Responsywnosc Strony`
+  
+  ![Alt Text](https://media.giphy.com/media/FVvU6cLB1yhrsndoh5/giphy-downsized.gif)
