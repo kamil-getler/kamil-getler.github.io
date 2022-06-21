@@ -1,4 +1,4 @@
-# Ciekawe projekty które sa ukończone lub są w fazie ukończenia się zajmuje zaznaczyłem gwiazdkami #
+# Ciekawe projekty które sa ukończone lub są w fazie ukończenia  oznaczyłem gwiazdkami w moich repozytoriach #
 
 
 
