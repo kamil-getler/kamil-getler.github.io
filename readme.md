@@ -1,3 +1,7 @@
+# Ciekawe projekty które sa ukończone lub są w fazie ukończenia się zajmuje zaznaczyłem gwiazdkami #
+
+
+
 # Kamil Getler #
 Witam,jestem studentem kerunku informatyka oraz instruktorem nauki jazdy,kucharzem,barmanem....Od pewnego czasu stawiam wszystko na jedną karte i rozwijam się oraz ciągle edukuje w kierunku projektowaniu stron internetowych.Postaram się przybliżyć jakie technologie zastosowałęm i co miałem na myśli budując moje portfolio. 
 
